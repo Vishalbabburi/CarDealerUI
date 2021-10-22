@@ -1,0 +1,16 @@
+<div>
+    <div class=sideCaption><p>CIDR-FCSD</p></div>
+    <div class="flexContainer">
+    
+        <div *ngFor='let car of InteriorCars;'>
+            <app-vehicle-card [car]='car'></app-vehicle-card>
+        </div>
+    </div>
+    <div class=sideCaption><p>ASO-CDR</p></div>
+    <div class="flexContainer">
+        <div *ngFor='let car of ExteriorCars;'>
+            <app-vehicle-card  [car]='car'></app-vehicle-card>
+        </div>
+    </div>
+</div>
+

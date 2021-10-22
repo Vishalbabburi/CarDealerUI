@@ -1,0 +1,26 @@
+
+.rowFlexBox{
+    display:flex;
+    flex-direction: row;
+}
+.columnFlexBox{
+    display:flex;
+    flex-direction: column;
+}
+.carImage{
+    margin-top:-50px ;
+    margin-left:10px;
+    height:100px;
+    width: 100px;;
+}
+.modelText,.yearText,.problemText{
+    font-size: smaller;
+    font-weight: 570;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+
+.problemText{
+    font-size: medium;
+}
